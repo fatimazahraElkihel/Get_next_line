@@ -35,7 +35,7 @@ void    rest(char **str)
         }
 }
 
-char    return_line(charstr)
+char    return_line(char str)
 {
     int        len;
     int        i;
