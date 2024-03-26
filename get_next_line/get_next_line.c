@@ -35,11 +35,11 @@ void    rest(char **str)
         }
 }
 
-char    return_line(char str)
+char    return_line(char *str)
 {
     int        len;
     int        i;
-    char    str1;
+    char    *str1;
 
     len = 0;
     i = 0;
